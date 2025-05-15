@@ -1,4 +1,7 @@
 package com.javarush.domain;
 
-public class Status {
+public enum Status {
+    IN_PROGRESS,
+    DONE,
+    PAUSED
 }
